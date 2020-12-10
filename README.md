@@ -15,6 +15,12 @@ program.
 This repository documents the games and projects themselves.
 Contact me to discuss a license (probably free for use in teaching).
 
+> ### Note:
+> 
+> This repository is under construction. More details will be added when I
+> find time. If you want them sooner, remind me to find time by opening an
+> issue. Thanks for your patience!
+
 ## Contents
 
 * [2021 game: *Rock-Paper-Scissors 360*](#rock-paper-scissors-360)
@@ -29,6 +35,8 @@ Contact me to discuss a license (probably free for use in teaching).
 In 2021, we will play *Rock--Paper--Scissors 360*, a simultaneous-play board
 game inspired by the classic game of chance and anticipation. I'm still
 developing the details, and will update this repository after the semester.
+
+
 
 ## Expendibots
 
@@ -76,6 +84,9 @@ on the ancient
 * TODO:
   The details of the game are somewhere... I might have to do a little digging
   to find them.
+* TODO: Add tournament video?
+* TODO: Add concept art (to rules?)
+* TODO: Add the server (do I still have it?)
 
 ## Slider
 
@@ -84,6 +95,7 @@ design this game, but it served as an inspiration for *Chexers* of 2019 (see
 below).
 
 * TODO: Add some files and details about Slider.
+* TODO: Add the tournament video/animation (do I still have it?)
 
 ## Hexifence
 
@@ -100,4 +112,5 @@ With our high-level representation, we were able to obtain excellent search
 depth and to out-perform our cohort.
 
 * TODO: Link to files
+* TODO: Add animation of our program
 
