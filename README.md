@@ -1,6 +1,4 @@
-# AI Games
-
-> Let the games begin!
+# Let the games begin!
 
 From 2017 to 2021, I worked as a head TA for *COMP30024 Artificial
 Intellience*, an introductory AI class at the University of Melbourne.
