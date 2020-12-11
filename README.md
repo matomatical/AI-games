@@ -23,6 +23,14 @@ of the associated code.
 > This repository is under construction. More details will be added when I
 > find time. If you want them sooner, remind me to find time by opening an
 > issue. Thanks for your patience!
+> 
+> #### Status:
+> 
+> Chexers (2019) is the only game completely documented. I will next add
+> Expendibots (2020). Later I will dig up information on the older games
+> and add this, and also I am considering digging up and adding a 'hall of
+> fame' with information about the winners of each year's tournament, and
+> linking to other repositories around GitHub with examplary students' code.
 
 ## Contents
 
@@ -40,7 +48,7 @@ In 2021, we will play *Rock--Paper--Scissors 360*, a simultaneous-play board
 game inspired by the classic game of chance and anticipation. I'm still
 developing the details, and will update this repository after the semester.
 
-
+* TODO: Update after semester
 
 ## Expendibots
 
@@ -85,26 +93,12 @@ Components:
   \[[specification pdf](2019-chexers/project-spec.pdf)\]
   \[[driver and template code](2019-chexers/project-code/)\]
 * The online Chexers *battleground* implementing the
-  Centrally Connected Competitive Chexers Client Control (C hex)
+  Centrally Connected Competitive Chexers Client Control (C-hex)
   protocol
   \[[client and server code](2019-chexers/project-code/)\]
 
-TODO:
+* TODO: Add Chexers animation
 
-* Add Chexers animation
-* Add the project specifications
-
-## Watch Your Back!
-
-In 2018, we played *Watch Your Back!*, a two-player board game based loosely
-on the ancient
-
-TODO:
-
-* Add Chexers animation
-* Add the Python implementation and interface
-* Add the project specifications
-* Add the C hex protocol server and code.
 
 ## Watch Your Back!
 
@@ -112,21 +106,21 @@ In 2018, we played *Watch Your Back!*, a two-player board game based loosely
 on the ancient
 [Ludus latruncolorum](https://en.wikipedia.org/wiki/Ludus_latrunculorum).
 
-* TODO:
-  The details of the game are somewhere... I might have to do a little digging
-  to find them.
+* TODO: The details of the game are somewhere... but I might have to dig
+  a little to find them.
 * TODO: Add tournament video?
 * TODO: Add concept art (to rules?)
-* TODO: Add the server (do I still have it?)
+* TODO: Add the WUB-protocol server (do I still have it?)
 
 ## Slider
 
 In 2017, we played *Slider*, a two-player race and blocking game. I did not
-design this game, but it served as an inspiration for *Chexers* of 2019 (see
-below).
+design this game, but it served as an inspiration for
+[*Chexers*](#chexers) of 2019.
 
 * TODO: Add some files and details about Slider.
 * TODO: Add the tournament video/animation (do I still have it?)
+
 
 ## Hexifence
 
@@ -144,6 +138,7 @@ depth and to out-perform our cohort.
 
 * TODO: Link to files
 * TODO: Add animation of our program
+
 
 ## Licensing
 
