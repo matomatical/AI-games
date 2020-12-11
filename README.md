@@ -12,13 +12,13 @@ open-ended task of creating a Python program capable of playing the game as
 adeptly as possible.
 We typically run an official *tournament* at the end of the semester to find
 out which teams have achieved this goal most convincingly.
-Alongside the project, we typically provide an online *battleground server*,
+Alongside the project, we also provide an online *battleground server*,
 enabling the students to compete during the semester without sharing code.
 
 This repository documents these games, and the projects, and includes some
 of the associated code.
 
-> ### Note:
+> ### TODO
 > 
 > This repository is under construction. More details will be added when I
 > find time. If you want them sooner, remind me to find time by opening an
@@ -70,19 +70,34 @@ challenging, and exciting AI games since my first semester.
 > way across the finish line before your opponents---three, two, one... go!
 
 In 2019, we played *Chexers*, a three-player hexagonal board game where
-players can capture the pieces of their opponent as they race across the
-board.
+players can convert their opponent's pieces as they race across the board.
 
 Components:
 
 * The rules of the Game of *Chexers*
-  \[[pdf](2019-chexers/rules.pdf)\]
-* The warmup project, to solve a single-player variant using (non-adversarial)
-  search techniques
-  \[specification pdf\]
-  \[provided code\]
-  \[sample solution\]
-* The main project, to build a program to play the game.
+  \[[rules pdf](2019-chexers/game-rules.pdf)\]
+* The warmup project, to solve a single-player variant using
+  non-adversarial search algorithms
+  \[[specification pdf](2019-chexers/warmup-spec.pdf)\]
+  \[[template code](#TODO)\]
+  \[[sample solution](#TODO)\]
+* The main project, to build a program to play the game
+  \[[specification pdf](2019-chexers/project-spec.pdf)\]
+  \[[driver and template code](2019-chexers/project-code/)\]
+* The online Chexers *battleground* implementing the
+  Centrally Connected Competitive Chexers Client Control (C hex)
+  protocol
+  \[[client and server code](2019-chexers/project-code/)\]
+
+TODO:
+
+* Add Chexers animation
+* Add the project specifications
+
+## Watch Your Back!
+
+In 2018, we played *Watch Your Back!*, a two-player board game based loosely
+on the ancient
 
 TODO:
 
