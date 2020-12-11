@@ -244,18 +244,18 @@ and shows some examples of available exit actions.
     \centering
     \begin{tikzpicture}
         \board
-        \hex{+3}{+0}{red}{r}
-        \hex{+2}{+1}{red}{r}
-        \hex{+1}{+2}{red}{r}
-        \hex{+0}{+3}{red}{r}
-        \hex{-3}{+0}{green}{g}
-        \hex{-3}{+1}{green}{g}
-        \hex{-3}{+2}{green}{g}
-        \hex{-3}{+3}{green}{g}
-        \hex{+0}{-3}{blue}{b}
-        \hex{+1}{-3}{blue}{b}
-        \hex{+2}{-3}{blue}{b}
-        \hex{+3}{-3}{blue}{b}
+        \hex{+3}{+0}{red}{$r$}
+        \hex{+2}{+1}{red}{$r$}
+        \hex{+1}{+2}{red}{$r$}
+        \hex{+0}{+3}{red}{$r$}
+        \hex{-3}{+0}{green}{$g$}
+        \hex{-3}{+1}{green}{$g$}
+        \hex{-3}{+2}{green}{$g$}
+        \hex{-3}{+3}{green}{$g$}
+        \hex{+0}{-3}{blue}{$b$}
+        \hex{+1}{-3}{blue}{$b$}
+        \hex{+2}{-3}{blue}{$b$}
+        \hex{+3}{-3}{blue}{$b$}
     \end{tikzpicture}
     \caption{\label{fig:exits}
         This figure marks the hexes where Red's pieces have available exit
@@ -271,7 +271,7 @@ and shows some examples of available exit actions.
 \begin{subfigure}{.62\textwidth}
     \centering
     \begin{tikzpicture}
-        \clip (+0.6,-0.6)  circle (2.61);
+        \clip (+0.6,-0.6)  circle (2.56);
         \board
         \hex{+3}{+0}{red}{}
         \hex{+2}{+1}{red}{}
@@ -318,14 +318,16 @@ Alternatively, the game may end in a draw with no players winning the
 game. A draw is declared if either of the following conditions are met:
 
 \begin{itemize}
-\item
-  One board configuration (with the same pieces occupying the same hexes
-  on the same player's turn, ignoring rearrangements of same-coloured
-  pieces) occurs for a fourth time since the start of the game. These
-  repeated board configurations do not need to occur in succession.
-\item
-  Each player has had their 256\textsuperscript{th} turn (including
-  turns where the player must pass) and no winner has been declared.
+    \item
+        One board configuration (with the same pieces occupying the same
+        hexes on the same player's turn, ignoring rearrangements of
+        same-coloured pieces) occurs for a fourth time since the start of
+        the game.
+        These repeated board configurations do not need to occur in
+        succession.
+    \item
+        Each player has had their 256\textsuperscript{th} turn (including
+        turns where the player must pass) and no winner has been declared.
 \end{itemize}
 
 \end{document}

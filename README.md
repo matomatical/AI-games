@@ -72,9 +72,16 @@ In 2019, we played *Chexers*, a three-player hexagonal board game where
 players can capture the pieces of their opponent as they race across the
 board.
 
-Check it out:
+Components:
 
-* The rules of the Game of *Chexers* \[[pdf](2019-chexers/rules.pdf)\]
+* The rules of the Game of *Chexers*
+  \[[pdf](2019-chexers/rules.pdf)\]
+* The warmup project, to solve a single-player variant using (non-adversarial)
+  search techniques
+  \[specification pdf\]
+  \[provided code\]
+  \[sample solution\]
+* The main project, to build a program to play the game.
 
 TODO:
 
