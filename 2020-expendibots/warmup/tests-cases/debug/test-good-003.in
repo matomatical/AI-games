@@ -1,0 +1,2 @@
+# Test good 003 - bad fmt
+MOVE 1 from (0, 0) to (1, 0).BOOM at (1, 0).

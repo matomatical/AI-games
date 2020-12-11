@@ -1,0 +1,5 @@
+# Test bad 004 - bad move
+MOVE 1 from (0, 0) to (1, 0).
+MOVE 1 from (1, 0) to (2, 0).
+MOVE 1 from (2, 0) to (3, 0).
+BOOM at (3, 0).

@@ -1,0 +1,7 @@
+# Test good 002 - non optimal
+MOVE 1 from (0, 0) to (1, 0).
+MOVE 1 from (1, 0) to (1, 1).
+MOVE 1 from (1, 1) to (0, 1).
+MOVE 1 from (0, 1) to (0, 0).
+MOVE 1 from (0, 0) to (1, 0).
+BOOM at (1, 0).
