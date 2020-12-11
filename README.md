@@ -1,6 +1,4 @@
-# AI Games
-
-> Let the games begin!
+# Let the games begin!
 
 From 2017 to 2021, I worked as a head TA for *COMP30024 Artificial
 Intellience*, an introductory AI class at the University of Melbourne.
@@ -10,12 +8,14 @@ it's for their computers to play: As a semester project, the students work
 in pairs to create a Python program capable of playing the board game.
 
 We typically provide an online *battleground server* for the students to
-compete through without sharing code, and we also run an offline tournament
+compete through without sharing code, and we also run an offline *tournament*
 at the end of the semester to find out which team has created the most adept
 program.
 
 This repository documents the games and projects themselves.
-Contact me to discuss a license (probably free for use in teaching).
+
+Some of them are even fun for humans to play, if I do say so myself!
+Check out Chexers and Expendibots, for example!
 
 ## Contents
 
@@ -25,6 +25,7 @@ Contact me to discuss a license (probably free for use in teaching).
 * [2018 game: *Watch Your Back!*](#watch-your-back)
 * [2017 game: *Slider*](#slider)
 * [2016 game: *Hexifence*](#hexifence)
+* [Licensing](#licensing)
 
 ## Rock-Paper-Scissors 360
 
@@ -103,3 +104,10 @@ depth and to out-perform our cohort.
 
 * TODO: Link to files
 
+## Licensing
+
+I am willing to share these teaching materials with other educators, and
+with students looking for programming projects. I am willing to consider
+sharing for other purposes. Please contact me to discuss a license.
+
+* TODO: Just add a clear license to the repository
