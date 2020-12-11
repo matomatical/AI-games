@@ -4,18 +4,19 @@ From 2017 to 2021, I worked as a head TA for *COMP30024 Artificial
 Intellience*, an introductory AI class at the University of Melbourne.
 
 Each year, I develop an original board game for the students to play. Well,
-it's for their computers to play: As a semester project, the students work
-in pairs to create a Python program capable of playing the board game.
+it's for their computers to play, but, if I do say so myself, some of the
+games end up being fun for humans too!
 
-We typically provide an online *battleground server* for the students to
-compete through without sharing code, and we also run an offline *tournament*
-at the end of the semester to find out which team has created the most adept
-program.
+Anyway, over a few weeks, the students work in pairs on the challenging and
+open-ended task of creating a Python program capable of playing the game as
+adeptly as possible.
+We typically run an official *tournament* at the end of the semester to find
+out which teams have achieved this goal most convincingly.
+Alongside the project, we typically provide an online *battleground server*,
+enabling the students to compete during the semester without sharing code.
 
-This repository documents the games and projects themselves.
-
-Some of them are even fun for humans to play, if I do say so myself!
-Check out Chexers and Expendibots, for example!
+This repository documents these games, and the projects, and includes some
+of the associated code.
 
 > ### Note:
 > 
