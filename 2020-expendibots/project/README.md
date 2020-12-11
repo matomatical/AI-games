@@ -210,6 +210,6 @@ python3 -um battleground-server > log.txt 2>&1
 disown %1
 ```
 
-The server will run on port 6666, accumulating a (big) log in `log.txt`,
+The server will run on port 54321, accumulating a (big) log in `log.txt`,
 and individual game logs in `logs/game_{player_names}_at_{start_time}.txt`.
 
