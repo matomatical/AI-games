@@ -8,7 +8,7 @@
 * `battleground_server`, module implementing match-making server for the same
 
 See usage notes below, and also the
-[project specification](2019-chexers/project-spec.pdf).
+[project specification](../project-spec.pdf).
 
 > ### Warning
 > 
