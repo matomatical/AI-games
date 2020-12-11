@@ -79,8 +79,8 @@ Components:
 * The warmup project, to solve a single-player variant using
   non-adversarial search algorithms
   \[[specification pdf](2019-chexers/warmup-spec.pdf)\]
-  \[[template code](#TODO)\]
-  \[[sample solution](#TODO)\]
+  \[[template code](2019-chexers/warmup-code/)\]
+  \[[sample solution](2019-chexers/warmup-code/)\]
 * The main project, to build a program to play the game
   \[[specification pdf](2019-chexers/project-spec.pdf)\]
   \[[driver and template code](2019-chexers/project-code/)\]

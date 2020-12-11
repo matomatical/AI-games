@@ -1,0 +1,6 @@
+{
+    "colour": "green",
+    "pieces": [[-1, 0], [1, 0]],
+    "blocks": [[-2, 1], [-1, 1], [0, 1], [1, 1]],
+    "solution depth": 6
+}
