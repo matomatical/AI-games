@@ -151,13 +151,17 @@ project was completed in Java.
 
 I worked with my project partner Julian Tran to develop a program using basic
 adversarial search techniques, some specialised game tactics ('double boxing')
-and a high-level represetation of the board (chunking the board into
+and a high-level represetation of the board (*chunking* the board into
 tactically-relevant 'chains' rather than searching over individual edges).
 With our high-level representation, we were able to obtain excellent search
 depth and to out-perform our cohort.
 
-* TODO: Link to files
-* TODO: Add animation from our program
+Contents:
+* Our project work is, somewhat cringingly, publicly available in [another
+  repository](https://github.com/matomatical/AI-projectB).
+* That repository also includes the rules of the game and the project
+  specification.
+* TODO: Add animation of our program
 
 
 ## Licensing
