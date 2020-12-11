@@ -1,13 +1,14 @@
 # Chexers project code
 
-Contents:
+## Contents
 
 * `referee`, Python module acting as a driver for computerised Chexers games
 * `player_template`, skeleton module for implementing a player
 * `battleground`, module implementing client for the online battleground
 * `battleground_server`, module implementing match-making server for the same
 
-See usage notes below, and also the [project specification](2019-chexers/).
+See usage notes below, and also the
+[project specification](2019-chexers/project-spec.pdf).
 
 > ### Warning
 > 
@@ -15,7 +16,7 @@ See usage notes below, and also the [project specification](2019-chexers/).
 > most-recent semester's code for a similar but more up-to-date
 > implementation.
 
-## Driver usage
+## Chexers driver usage
 
 Play a game of Chexers between three Player classes.
 
@@ -127,12 +128,10 @@ A Player is a class with the following three methods:
     the action/pass against the game rules).
 
 
-## Battleground client
+## Battleground client usage
 
-To play a game of *Chexers* against another team's program (without sharing
-code, as would entail a breach of academic integrity).
-
-### Usage
+To play a game of *Chexers* against another team's program using the online
+battleground.
 
 To play a game using the battleground client, invoke it as follows, ensuring
 that
