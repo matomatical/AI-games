@@ -72,11 +72,16 @@ In 2019, we played *Chexers*, a three-player hexagonal board game where
 players can capture the pieces of their opponent as they race across the
 board.
 
-* TODO: Add Chexers animation
-* TODO: Add the rules of the game of *Chexers*
-* TODO: Add the Python implementation and interface
-* TODO: Add the project specifications
-* TODO: Add the C hex protocol server and code.
+Check it out:
+
+* The rules of the Game of *Chexers* \[[pdf](2019-chexers/rules.pdf)\]
+
+TODO:
+
+* Add Chexers animation
+* Add the Python implementation and interface
+* Add the project specifications
+* Add the C hex protocol server and code.
 
 ## Watch Your Back!
 
