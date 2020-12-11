@@ -2,13 +2,11 @@
 
 ## Contents
 
+* `specification.pdf`, containing full details of the project
 * `referee`, Python module acting as a driver for computerised Chexers games
 * `player_template`, skeleton module for implementing a player
 * `battleground`, module implementing client for the online battleground
 * `battleground_server`, module implementing match-making server for the same
-
-See usage notes below, and also the
-[project specification](../project-spec.pdf).
 
 > ### Warning
 > 
@@ -130,8 +128,7 @@ A Player is a class with the following three methods:
 
 ## Battleground client usage
 
-To play a game of *Chexers* against another team's program using the online
-battleground.
+To play a game against other teams' program using the online battleground.
 
 To play a game using the battleground client, invoke it as follows, ensuring
 that
@@ -150,6 +147,7 @@ limiting the opponents matched using a 'channel'/'passphrase';
 controlling output verbosity;
 creating an action log;
 and using other player classes (not named Player) from a package.
+
 Full usage information (`python3 -m battleground -h`):
 
 ```
