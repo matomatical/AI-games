@@ -36,7 +36,7 @@ of the associated code.
 
 ## Contents
 
-* [2021 game: *Rock-Paper-Scissors 360*](#rock-paper-scissors-360)
+* [2021 game: *RoPaSci 360*](#ropasci-360)
 * [2020 game: *Expendibots*](#expendibots)
 * [2019 game: *Chexers*](#chexers)
 * [2018 game: *Watch Your Back!*](#watch-your-back)
@@ -45,11 +45,20 @@ of the associated code.
 * [Licensing](#licensing)
 
 
-## Rock-Paper-Scissors 360
+## RoPaSci 360
 
-In 2021, we will play *Rock--Paper--Scissors 360*, a simultaneous-play board
-game inspired by the classic game of chance and anticipation. I'm still
-developing the details, and will update this repository after the semester.
+> RoPaSci 360 is a simultaneous-play board game of chance and anticipation.
+> Assemble a team of Rock-Paper-Scissors tokens with which to crush, cover,
+> and cut through your opponent's tokens, following the classic hand-game
+> mechanic.
+> Attack your opponent where they least expect it!
+> Charge towards their weak spots and then narrowly escape their retaliation!
+> Can you anticipate their next move, or is that exactly what they want you
+> to think? *Rock, paper, scissors, throw!*
+
+In 2021, we will play *RoPaSci 360*.
+I'm still developing the details, and will update this repository after
+the semester.
 
 * TODO: Update after semester
 
