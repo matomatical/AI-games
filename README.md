@@ -59,7 +59,6 @@ of the associated code.
 
 In 2021, we will play *RoPaSci 360*, a simultaneous-play board game inspired
 by the hand-game classic. This repository will be updated with the details
-later during/after the semester.
 
 * TODO: Update after semester
 
