@@ -39,7 +39,6 @@ of the associated code.
 * [2018 game: *Watch Your Back!*](#watch-your-back)
 * [2017 game: *Slider*](#slider)
 * [2016 game: *Hexifence*](#hexifence)
-* [Licensing](#licensing)
 
 
 ## RoPaSci 360
@@ -186,11 +185,3 @@ Contents:
   specification.
 * TODO: Add animation of our program
 
-
-## Licensing
-
-I am willing to share these teaching materials with other educators, and
-with students looking for programming projects. I am willing to consider
-sharing for other purposes. Please contact me to discuss a license.
-
-* TODO: Just add a clear license to the repository
