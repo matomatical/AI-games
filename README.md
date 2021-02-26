@@ -18,20 +18,17 @@ enabling the students to compete during the semester without sharing code.
 This repository documents these games, and the projects, and includes some
 of the associated code.
 
-> ### TODO
-> 
-> This repository is under construction. More details will be added when I
-> find time. If you want them sooner, remind me to find time by opening an
-> issue. Thanks for your patience!
-> 
 > #### Status:
 > 
 > Chexers (2019) and Expendibots (2020) are more-or-less documented.
-> Later I will dig up information on the older games and add these.
+> Rules from older games are available, but not project details or code.
 > I am also considering compiling a 'hall of fame' with information about
 > the winners of each year's tournament,
-> and linking to other repositories around GitHub with examplary students'
+> and linking to other repositories around GitHub with exemplary students'
 > code.
+> 
+> If something you are interested in is missing, just raise an issue to
+> remind me to add it.
 
 
 ## Contents
@@ -135,10 +132,15 @@ In 2018, we played *Watch Your Back!*, a two-player board game based loosely
 on the ancient
 [Ludus latruncolorum](https://en.wikipedia.org/wiki/Ludus_latrunculorum).
 
-* TODO: The details of the game are somewhere... but I might have to dig
-  a little to find them.
-* TODO: Add the original WUB-protocol server (do I still have it?)
-* TODO: Add concept art and/or tournament video?
+* The rules of the Game of *Watch Your Back!*
+  \[[rules pdf](2018-wub/game-rules/game-rules.pdf)\]
+* The warmup project, to solve a single-player variant using
+  non-adversarial search algorithms
+  \[[specification pdf](2018-wub/warmup/specification.pdf)\]
+* The main project, to build a program to play the game
+  \[[specification pdf](2019-wub/project/specification.pdf)\]
+* TODO: Add concept art
+* TODO: Add tournament video?
 
 
 ## Slider
@@ -147,8 +149,9 @@ In 2017, we played *Slider*, a two-player race and blocking game. I did not
 design this game, but it served as an inspiration for
 [*Chexers*](#chexers) of 2019.
 
-* TODO: Add some files and details about Slider.
-* TODO: Add the tournament video/animation (do I still have it?)
+* The rules of the Game of *Slider*
+  \[[rules pdf](2017-slider/game-rules.pdf)\]
+* TODO: Do I still have the tournament video/animation?
 
 
 ## Hexifence
