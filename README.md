@@ -128,6 +128,17 @@ Contents:
 
 ## Watch Your Back!
 
+
+> *Watch Your Back!* is a fast-paced combat board game.
+> You control a team of ruthless rogues engaged in a fight to the death
+> against your enemies.
+> Within the confines of a checkerboard there is no rulebook and no
+> referee, and the easiest way to a cut down an enemy is to stab
+> them in the back.
+> Control your lawless warriors to jump and slash their way around
+> the board surrounding and silencing your enemies until none remain.
+> And, of course, *watch your back!*
+
 In 2018, we played *Watch Your Back!*, a two-player board game based loosely
 on the ancient
 [Ludus latruncolorum](https://en.wikipedia.org/wiki/Ludus_latrunculorum).
