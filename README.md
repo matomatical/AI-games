@@ -1,7 +1,8 @@
 # Let the games begin!
 
-From 2017 to 2021, I worked as a head TA for *COMP30024 Artificial
-Intellience*, an introductory AI class at the University of Melbourne.
+From 2017 to 2021, I worked as a head TA for
+[*COMP30024 Artificial Intellience*](https://handbook.unimelb.edu.au/subjects/comp30024/print),
+an introductory AI class at the University of Melbourne.
 
 Each year, I develop an original board game for the students to play. Well,
 it's for their computers to play, but, if I do say so myself, some of the
