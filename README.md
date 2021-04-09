@@ -21,15 +21,14 @@ of the associated code.
 
 > #### Status:
 > 
-> Chexers (2019) and Expendibots (2020) are more-or-less documented.
-> Rules from older games are available, but not project details or code.
-> I am also considering compiling a 'hall of fame' with information about
-> the winners of each year's tournament,
-> and linking to other repositories around GitHub with exemplary students'
-> code.
+> The games from my tenure as head TA, back to 2017, are more-or-less
+> documented, with only a few missing pieces.
+> More details of this semester's game are forthcoming.
 > 
-> If something you are interested in is missing, just raise an issue to
-> remind me to add it.
+> I am considering compiling a 'hall of fame' with information about the
+> winners of each year's tournament, and linking to other repositories
+> around GitHub with exemplary students' code, if I can find it.
+> If you want to be listed, contact me or raise an issue.
 
 
 ## Contents
@@ -55,9 +54,35 @@ of the associated code.
 > exactly what they want you to think? *Rock, paper, scissors, throw!*
 
 In 2021, we will play *RoPaSci 360*, a simultaneous-play board game inspired
-by the hand-game classic. This repository will be updated with the details
+by the hand-game classic.
 
-* TODO: Update after semester
+Contents:
+
+* The rules of the Game of *RoPaSci360*
+  \[[rules pdf](2021-rps360/game-rules/game-rules.pdf)\]
+* A javascript implementation courtesy of
+  [Rowan Warneke](https://github.com/rwarneke)
+  \[[hosted version](https://ropasci360.herokuapp.com)\]
+  \[[source repository](https://github.com/rwarneke/RoPaSci360)\]
+
+Later (after the semester) I will add:
+
+* The warmup project, to solve a single-player variant using non-adversarial
+  search algorithms
+  \[[specification pdf](#)\]
+  \[[template code](#)\]
+  \[[test cases](#)\]
+  \[[sample solution](#)\]
+* My *bonus lecture* on extending adversarial search techniques to
+  simultaneous-play games
+  \[[slides pdf](#)\]
+  \[[recording?](#)\]
+* The main project, to build a program to play the game
+  \[[specification pdf](#)\]
+  \[[driver and template code](#)\]
+* The online RoPaSci 360 *battleground* implementing the Random Online
+  Portable Adversary Server Connection Interface (ROPASCI) protocol
+  \[[client and server code](#)\]
 
 
 ## Expendibots
@@ -114,8 +139,12 @@ Contents:
 * The warmup project, to solve a single-player variant using
   non-adversarial search algorithms
   \[[specification pdf](2019-chexers/warmup/specification.pdf)\]
-  \[[template code](2019-chexers/warmup/)\]
-  \[[sample solution](2019-chexers/warmup/)\]
+  \[[template code](2019-chexers/warmup/template/)\]
+  \[[test cases](2019-chexers/warmup/test-cases/)\]
+  \[[sample solution](2019-chexers/warmup/sample-solution/)\]
+* My *bonus lecture* on extending adversarial search techniques to
+  simultaneous-play games
+  \[[slides pdf](2019-chexers/maxn-lecture.pdf)\]
 * The main project, to build a program to play the game
   \[[specification pdf](2019-chexers/project/specification.pdf)\]
   \[[driver and template code](2019-chexers/project/)\]
@@ -127,7 +156,6 @@ Contents:
 
 
 ## Watch Your Back!
-
 
 > *Watch Your Back!* is a fast-paced combat board game.
 > You control a team of ruthless rogues engaged in a fight to the death
@@ -148,10 +176,14 @@ on the ancient
 * The warmup project, to solve a single-player variant using
   non-adversarial search algorithms
   \[[specification pdf](2018-wub/warmup/specification.pdf)\]
+  \[[test cases](2018-wub/warmup/test-cases/)\]
+  \[[sample solution](2018-wub/warmup/sample/solution/)\]
 * The main project, to build a program to play the game
   \[[specification pdf](2019-wub/project/specification.pdf)\]
+  \[[driver program](2019-wub/project/referee.py)\]
+* TODO: Is the original battleground code lost forever?
 * TODO: Add concept art
-* TODO: Add tournament video?
+* TODO: Dig up tournament recording
 
 
 ## Slider
@@ -161,9 +193,13 @@ design this game, but it served as an inspiration for
 [*Chexers*](#chexers) of 2019.
 
 * The rules of the Game of *Slider*
-  \[[rules pdf](2017-slider/game-rules.pdf)\]
-* TODO: Do I still have the tournament video/animation?
-
+  \[[rules pdf](2017-slider/game-rules/game-rules.pdf)\]
+* The warmup project, to analyse a static game state
+  \[[specification pdf](2017-slider/warmup/specification.pdf)\]
+* The main project, to build a (Java) program to play the game
+  \[[specification pdf](2017-slider/project/specification.pdf)\]
+  \[[driver program](2017-slider/project/Referee.java)\]
+* TODO: Dig up tournament recording
 
 ## Hexifence
 
