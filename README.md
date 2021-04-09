@@ -71,7 +71,7 @@ Later (after the semester) I will add:
   search algorithms
   \[[specification pdf](#)\]
   \[[template code](#)\]
-  \[[test cases](#)\]
+  \[[test cases and creator](#)\]
   \[[sample solution](#)\]
 * My *bonus lecture* on extending adversarial search techniques to
   simultaneous-play games
