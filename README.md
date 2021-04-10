@@ -75,7 +75,7 @@ Later (after the semester) I will add:
   \[[sample solution](#)\]
 * My *bonus lecture* on extending adversarial search techniques to
   simultaneous-play games
-  \[[slides pdf](#)\]
+  \[[slides pdf](2021-rps360/lecture/slides.pdf)\]
   \[[recording?](#)\]
 * The main project, to build a program to play the game
   \[[specification pdf](#)\]
