@@ -143,7 +143,7 @@ Contents:
   \[[test cases](2019-chexers/warmup/test-cases/)\]
   \[[sample solution](2019-chexers/warmup/sample-solution/)\]
 * My *bonus lecture* on extending adversarial search techniques to
-  simultaneous-play games
+  *n*-player games
   \[[slides pdf](2019-chexers/maxn-lecture.pdf)\]
 * The main project, to build a program to play the game
   \[[specification pdf](2019-chexers/project/specification.pdf)\]
