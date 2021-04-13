@@ -64,19 +64,19 @@ Contents:
   [Rowan Warneke](https://github.com/rwarneke)
   \[[hosted version](https://ropasci360.herokuapp.com)\]
   \[[source repository](https://github.com/rwarneke/RoPaSci360)\]
-
-Later (after the semester) I will add:
-
 * The warmup project, to solve a single-player variant using non-adversarial
   search algorithms
-  \[[specification pdf](#)\]
-  \[[template code](#)\]
-  \[[test cases and creator](#)\]
-  \[[sample solution](#)\]
+  \[[specification pdf](2021-rps360/warmup/specification.pdf)\]
+  \[[template code](2021-rps360/warmup/template/)\]
+  \[[test cases and creator](2021-rps360/warmup/tests/)\]
+  \[[sample solution](2021-rps360/warmup/sample-solution/)\]
 * My *bonus lecture* on extending adversarial search techniques to
   simultaneous-play games
   \[[slides pdf](2021-rps360/lecture/slides.pdf)\]
-  \[[recording?](#)\]
+  \[[recording](2021-rps360/lecture/recording.mp4)\]
+
+Later, I will add:
+
 * The main project, to build a program to play the game
   \[[specification pdf](#)\]
   \[[driver and template code](#)\]

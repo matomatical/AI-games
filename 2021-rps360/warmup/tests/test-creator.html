@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Test Case Creator</title>
+</head>
+<body style="margin: auto; max-width: 60ch">
+<h2>
+  Project Part A Test Case Creator
+</h2>
+<p>
+  Click a hex to change its contents in the cycle:
+  <em>empty, R, P, S, r, p, s, block</em>
+  (<key>shift</key>+click to go back).
+  A corresponding test input file
+  is automatically generated below.
+</p>
+<p style="text-align: right">
+  &mdash;Matt
+</p>
+<svg id="s" version="1.1"
+  viewBox="-200 -180 400 360"
+  preserveAspectRatio="xMidYMid meet"
+  xmlns="http://www.w3.org/2000/svg">
+</svg>
+<p>
+  Source (<a id="download" href="#" download="test.json">download</a>):
+</p>
+<pre class="output" id="output">
+</pre>
+<script>
+// // //
+// Helper functions for working with hex grids
+//
+function hexRange(n) {
+  let a = [];
+  for (let row = -n; row <= n; row += 1) {
+    for (let col = -n; col <= n; col += 1) {
+      if (col + row >= -n && col + row <= n) {
+        a.push([row, col]);
+      }
+    }
+  }
+  return a;
+}
+
+// // //
+// UI Functions for drawing and manipulating SVG hex grid
+//
+function svgElement(tag = "svg", attrs = {}, style = {}) {
+  let element = document.createElementNS("http://www.w3.org/2000/svg", tag);
+  Object.entries(attrs).forEach(([key, val]) => {
+    element.setAttributeNS(null, key, val.toString());
+  });
+  Object.entries(style).forEach(([key, val]) => {
+    element.style[key] = val.toString();
+  });
+  return element;
+}
+
+function svgHex(r, q, size, style, radius=1) {
+  let x = size * (1.73 * q + 0.866 * r);
+  let y = size * (-1.5 * r);
+
+  // build points string
+  let points = [0, 1, 2, 3, 4, 5].map((i) => [
+    x + radius * size * Math.sin((i * Math.PI) / 3),
+    y + radius * size * Math.cos((i * Math.PI) / 3)
+  ]);
+  let pointsStr = points.map((xy) => xy.join(",")).join(" ");
+
+  // build SVG element
+  return svgElement(
+    "polygon",
+    { points: pointsStr },
+    style,
+  );
+}
+
+function svgCircle(x, y, r, style) {
+  return svgElement("circle", { cx: x, cy: y, r: r }, style);
+}
+
+function svgText(x, y, s, style) {
+  let text = svgElement(
+    "text",
+    {
+      x: x,
+      y: y,
+      "dominant-baseline": "middle",
+      "text-anchor": "middle"
+    },
+    style
+  );
+  text.innerHTML = s;
+  return text;
+}
+
+function svgToken(r, q, size, player, symbol) {
+  let x = size * (1.73 * q + 0.866 * r);
+  let y = size * (-1.5 * r);
+  let upper = player.toLowerCase() == "upper";
+  // build SVG element
+  let token = svgElement("g", {}, { "pointer-events": "none" });
+  token.appendChild(
+    svgCircle(x, y, size * 0.75, {
+      fill: "#eee",
+      stroke: "black",
+      strokeWidth: "1.5px"
+    })
+  );
+  token.appendChild(
+    svgCircle(x, y, size * 0.58, {
+      fill: "transparent",
+      stroke: upper ? "black" : "purple",
+      strokeWidth: "2.7px"
+    })
+  );
+  let sym = upper ? symbol.toUpperCase() : symbol;
+  token.appendChild(
+    svgText(x, y, sym, {
+      "font-style": "italic",
+      "font-size": "14pt",
+      "user-select": "none"
+    })
+  );
+  return token;
+}
+
+function svgHexGrid(radius, onclick, size) {
+  let grid = svgElement("g");
+  hexRange(radius).forEach(([r, q]) => {
+    let hex = svgHex(
+      r,
+      q,
+      size, 
+      {
+        fill: "#dadada",
+        stroke: "black",
+        strokeWidth: "1px"
+      }
+    );
+    hex.addEventListener(
+      "click",
+      e => {
+        onclick(e, r, q);
+        return false; 
+      },
+      false
+    );
+    grid.appendChild(hex);
+  });
+  return grid;
+}
+
+// // //
+// Control functions for setting the UI based on the state
+//
+function toToken(i) {
+  switch (i) {
+    case 1:
+      return ["upper", "r"];
+    case 2:
+      return ["upper", "p"];
+    case 3:
+      return ["upper", "s"];
+    case 4:
+      return ["lower", "r"];
+    case 5:
+      return ["lower", "p"];
+    case 6:
+      return ["lower", "s"];
+    case 7:
+      return ["block", ""];
+    default:
+      return ["blank", ""];
+  }
+}
+
+function updateSource(out, link, state) {
+  let tokens = {
+    upper: [],
+    lower: [],
+    block: []
+  };
+  hexRange(4).forEach(([r, q]) => {
+    let [key, symbol] = toToken(state[[r, q]]);
+    if (key !== "blank") {
+      tokens[key].push([symbol, r, q]);
+    }
+  });
+  let source = JSON.stringify(tokens, null, 2);
+  out.innerHTML = source;
+  link.setAttribute(
+    'href',
+    'data:text/plain;charset=utf-8,' + encodeURIComponent(source)
+  );
+}
+
+const SIZE = 25;
+const RADIUS = 4;
+
+function main() {  
+  let svg = document.getElementById("s");
+  let out = document.getElementById("output");
+  let dla = document.getElementById("download");
+
+  let state = {};
+  let elems = {};
+  hexRange(RADIUS).forEach(([r, q]) => {
+    state[[r, q]] = 0;
+    elems[[r, q]] = null;
+  });
+
+  updateSource(out, dla, state);
+  svg.appendChild(
+    svgHexGrid(RADIUS, (e, r, q) => {
+      console.log("click", r, q);
+      // update state
+      if (e.shiftKey) {
+        state[[r, q]] += 7;
+      } else {
+        state[[r, q]] += 1;
+      }
+      state[[r, q]] %= 8;
+      // update output
+      updateSource(out, dla, state);
+      // update view
+      if (elems[[r, q]] !== null) {
+        svg.removeChild(elems[[r, q]]);
+      }
+      switch(state[[r, q]]) {
+        case 0:
+          elems[[r, q]] = null;
+          break;
+        case 7:
+          elems[[r, q]] = svgHex(
+            r,
+            q,
+            SIZE,
+            {
+              fill: "#bbb",
+              stroke: "black",
+              strokeWidth: "1px",
+              "pointer-events": "none",
+            },
+            0.8
+          );
+          break;
+        default:
+          [player, symbol] = toToken(state[[r, q]]);
+          elems[[r, q]] = svgToken(r, q, SIZE, player, symbol);
+          break;
+      }
+      if (elems[[r, q]] !== null) {
+        svg.appendChild(elems[[r, q]]);
+      }
+    }, SIZE)
+  );
+}
+main();
+</script>
+</body>
+</html>
