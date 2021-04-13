@@ -116,12 +116,12 @@ games (like Rock-Paper-Scissors itself):
 
 * **Mixed strategy**: Allow *random solutions*, distributions over actions.
 
-* **Nash equilibrium/Minimax principle**[^1]:
-  Choose the strategy that minimises the loss the opponent can cause; choose
-  the best strategy assuming they also play optimally.
+* **Minimax principle**:
+  Choose the strategy that minimises the maximum harm the opponent can cause.
 
-[^1]: The concept of Nash equilibrium is equivalent to the minimax principle
-for zero-sum games, but in the general case the two concepts differ.
+* **'Nash equilibrium'**:
+  For a zero-sum game, neither player benefits by individually deviating from
+  such a strategy.
 
 ---
 
@@ -186,7 +186,20 @@ minimum expected utility *value*.
 simultaneous-play game by first solving sub-games, then forming a
 new game at the higher level out of the solution *values*.
 
-![Recursively solve future stages](img/tree1.png){height=128px}
+![Contains single-stage sub-games](img/tree1.png){height=128px}
+
+---
+
+## Use *game theory*: Multi-stage games
+
+**Value of a game**: Given an equilibrium solution, a game has a fixed
+minimum expected utility *value*.
+
+**Backward induction algorithm**: Recursively solve multi-stage
+simultaneous-play game by first solving sub-games, then forming a
+new game at the higher level out of the solution *values*.
+
+![Recursively solve future stages](img/tree2.png){height=128px}
 
 ---
 
