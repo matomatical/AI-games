@@ -4,7 +4,7 @@
 
 * `specification.pdf`, containing full details about the project
 * `referee`, Python module acting as a driver for computerised games
-* `player_template`, skeleton module for implementing a player
+* `template_player`, skeleton module for implementing a player
 * `battleground.pdf`, instructions for using the online battleground client
 * `battleground`, module implementing client for the online battleground
 * `server`, module implementing match-making server for the same
