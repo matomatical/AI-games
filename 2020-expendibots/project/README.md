@@ -9,7 +9,7 @@
 * `battleground_server`, module implementing match-making server for the same
 
 See usage notes below, and also the
-[project specification](../project-spec.pdf).
+[project specification](specification.pdf).
 
 > ### Warning
 > 

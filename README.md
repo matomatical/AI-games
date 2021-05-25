@@ -68,21 +68,27 @@ Contents:
   search algorithms
   \[[specification pdf](2021-rps360/warmup/specification.pdf)\]
   \[[template code](2021-rps360/warmup/template/)\]
-  \[[test cases and creator](2021-rps360/warmup/tests/)\]
+  \[[test cases and test creator](2021-rps360/warmup/tests/)\]
   \[[sample solution](2021-rps360/warmup/sample-solution/)\]
 * My *bonus lecture* on extending adversarial search techniques to
   simultaneous-play games
   \[[slides pdf](2021-rps360/lecture/slides.pdf)\]
   \[[recording](2021-rps360/lecture/recording.mp4)\]
-
-Later, I will add:
-
 * The main project, to build a program to play the game
-  \[[specification pdf](#)\]
-  \[[driver and template code](#)\]
+  \[[specification pdf](2021-rps360/project/specification.pdf)\]
+  \[[driver and template code](2021-rps360/project/)\]
 * The online RoPaSci 360 *battleground* implementing the Random Online
   Portable Adversary Server Connection Interface (ROPASCI) protocol
-  \[[client and server code](#)\]
+  \[[instructions pdf](2021-rps360/project/battleground.pdf)\]
+  \[[client and server code](2021-rps360/project/)\]
+  \[logs and CPU players on request\]
+* The class tournament where 128 programs competed in a single-elimination
+  showdown. Who will be the champion?
+  \[[results repository](https://github.com/matomatical/RoPaSci-360-tournament)\]
+
+This year, over 33,200 games were played on the battleground server,
+comprising about 18,900 games against the greedy benchmark, 8,800 games
+against the random benchmark, and 5,500 games between students. Wow!
 
 
 ## Expendibots
