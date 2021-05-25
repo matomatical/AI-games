@@ -23,7 +23,6 @@ of the associated code.
 > 
 > The games from my tenure as head TA, back to 2017, are more-or-less
 > documented, with only a few missing pieces.
-> More details of this semester's game are forthcoming.
 > 
 > I am considering compiling a 'hall of fame' with information about the
 > winners of each year's tournament, and linking to other repositories
@@ -53,7 +52,7 @@ of the associated code.
 > Have you anticipated your opponent's next move, or are you thinking
 > exactly what they want you to think? *Rock, paper, scissors, throw!*
 
-In 2021, we will play *RoPaSci 360*, a simultaneous-play board game inspired
+In 2021, we played *RoPaSci 360*, a simultaneous-play board game inspired
 by the hand-game classic.
 
 Contents:
