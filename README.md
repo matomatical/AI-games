@@ -82,7 +82,7 @@ Contents:
   \[[client and server code](2021-rps360/project/)\]
   \[logs and CPU players on request\]
 * The class tournament where 128 programs competed in a single-elimination
-  showdown. Who will be the champion?
+  showdown. Congratulations to the champion team, `FiveYang`!
   \[[results repository](https://github.com/matomatical/RoPaSci-360-tournament)\]
 
 This year, over 33,200 games were played on the battleground server,
