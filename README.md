@@ -28,6 +28,9 @@ of the associated code.
 > winners of each year's tournament, and linking to other repositories
 > around GitHub with exemplary students' code, if I can find it.
 > If you want to be listed, contact me or raise an issue.
+> 
+> Note to self: Look through the old AI files (onedrive) for files and
+> and lectures (harddrives) for tournament videos for hall of fame.
 
 
 ## Contents
