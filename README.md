@@ -24,13 +24,7 @@ of the associated code.
 > The games from my tenure as head TA, back to 2017, are more-or-less
 > documented, with only a few missing pieces.
 > 
-> I am considering compiling a 'hall of fame' with information about the
-> winners of each year's tournament, and linking to other repositories
-> around GitHub with exemplary students' code, if I can find it.
-> If you want to be listed, contact me or raise an issue.
-> 
-> Note to self: Look through the old AI files (onedrive) for files and
-> and lectures (harddrives) for tournament videos for hall of fame.
+> See [TODO](#todo) for more info.
 
 
 ## Contents
@@ -230,3 +224,15 @@ Contents:
   specification.
 * TODO: Add animation of our program
 
+
+## TODO:
+
+* I found some files on an old drive! Add them:
+  * 2017: server!, a year earlier than I remember; plus some demo videos.
+  * 2018: server (and 2017 server), project sources, some animations of WUB!
+  * 2017 lectures: tournament recording.
+  * 2018 lectures: tournament recording.
+* Compile a 'hall of fame' with information about the winners of each
+  year's tournament.
+* Search for public github repositories of students' work, and add them
+  to a list here (with permission).
