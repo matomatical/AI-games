@@ -183,7 +183,9 @@ on the ancient
 * The main project, to build a program to play the game
   \[[specification pdf](2019-wub/project/specification.pdf)\]
   \[[driver program](2019-wub/project/referee.py)\]
-* TODO: Is the original battleground code lost forever?
+* The online *battleground* implementing the
+  *Watch yoUr Back! Player Protocol* (wubpp)
+  \[[client and server code](2018-wub/battleground/)\]
 * TODO: Add concept art
 * TODO: Dig up tournament recording
 
