@@ -180,6 +180,7 @@ on the ancient
   \[[specification pdf](2018-wub/warmup/specification.pdf)\]
   \[[test cases](2018-wub/warmup/test-cases/)\]
   \[[sample solution](2018-wub/warmup/sample/solution/)\]
+  \[[FAQ](2018-wub/warmup/faq.md)\]
 * The main project, to build a program to play the game
   \[[specification pdf](2019-wub/project/specification.pdf)\]
   \[[driver program](2019-wub/project/referee.py)\]
@@ -193,13 +194,15 @@ on the ancient
 ## Slider
 
 In 2017, we played *Slider*, a two-player race and blocking game. I did not
-design this game, but it served as an inspiration for
-[*Chexers*](#chexers) of 2019.
+design this game (it was based on a much earlier 2003 project), but it
+served as an inspiration for [*Chexers*](#chexers) of 2019.
 
 * The rules of the Game of *Slider*
   \[[rules pdf](2017-slider/game-rules/game-rules.pdf)\]
 * The warmup project, to analyse a static game state
   \[[specification pdf](2017-slider/warmup/specification.pdf)\]
+  \[[test cases and test creator](2017-slider/warmup/tests/)\]
+  \[[sample solution](2017-slider/warmup/sample-solution/)\]
 * The main project, to build a (Java) program to play the game
   \[[specification pdf](2017-slider/project/specification.pdf)\]
   \[[driver program](2017-slider/project/Referee.java)\]
