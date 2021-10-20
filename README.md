@@ -236,10 +236,10 @@ Contents:
 ## TODO:
 
 * For some more files, check AI 2017 and 2018 files in archives.
-  * 2017: server!, a year earlier than I remember; plus some demo videos.
-  * 2018: server (and 2017 server), project sources, some animations of WUB!
-  * 2017 lectures: tournament recording.
-  * 2018 lectures: tournament recording.
+  * matomatical/ai-games-unsorted:
+    * some animations of WUB!
+    * 2017 and 2018 tournament finalists
+  * 2017/2018 lectures: tournament recordings
 * Compile a 'hall of fame' with information about the winners of each
   year's tournament.
 * Search for public github repositories of students' work, and add them
