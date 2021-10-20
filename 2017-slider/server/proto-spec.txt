@@ -1,0 +1,11 @@
+# Protocol Specification
+
+HIST (recent-games)
+PLAY size passphrase name
+GAME player1classname player2classname
+INIT dimension compact-board piece
+UPD8 move
+OKAY
+MOVE i j dir
+ERRO message
+OVER message

@@ -1,0 +1,110 @@
+# Slider Server System
+
+For AI Project 2017
+
+## Client
+
+```
+read command line options (player, game size, [passphrase], [host, port])
+(if command line options player, size, passphrase missing, prompt user)
+
+instatiate player class of that interface (make sure it loads okay)
+
+connect to server at host, port
+recv HIST (list of recent server game results) and display to user
+
+send PLAY request (game size, [passphrase]) to server
+wait for it...
+recv GAME (size, player1classname, player2classname)
+notify user that a match has been found, and a game is about to begin!
+
+recv INIT (board, piece)
+forward this to player init() method
+
+while true:
+	recv message from server:
+		UPD8 (move):
+			call update() method with move
+			send back OKAY message
+		MOVE:
+			call move() method to get move
+			send back MOVE (move) message
+		ERRO (message):
+			end game and display why
+			close the connection
+			END THE LOOP
+		OVER (result):
+			game is over, diplay winner
+			END THE LOOP
+	
+	print the current state of the board
+
+print some goodbye message and exit
+```
+
+Alternative: unified move/update
+```
+MOVE (move):
+	call update(move)
+	call move() method to get move
+	send back MOVE (move) message
+```
+Benefits: less protocol messages (though UPD8 is a gr88 name)
+
+## Server
+
+### Welcome thread
+
+```
+while true:
+	accept new incoming connection
+	start a new server thread to start communicating with the client
+```
+
+### New server thread
+
+```
+send HIST (list of most-recent few games' results) to client
+start matchmaking (which will drop off a player or start the game)
+```
+
+### Matchmaking
+```
+recv PLAY (game size, [passphrase]) from a client
+(SYNC
+if there is a matching player (whose connection is still active):
+	remove that other player from the player pool, and play a new game
+	with these two players
+if there is no matching player:
+	drop this player off in the waiting player pool
+SYNC)
+```
+
+### Game
+```
+send GAME (size, player1classname, player2classname) to both clients
+set up and play a regular Referee game but with two NetPlayer implementations
+of the slider player interface, which handle INIT, MOVE and UPD8 methods as:
+	init():
+		send INIT, wait for OKAY
+	update():
+		send UPD8 (move), wait for OKAY
+	move():
+		send MOVE, wait for MOVE (move), return move
+also, this referee times with real time instead of CPU time
+catch any exceptions and send ERRO (message) on error,
+or waits for valid end-of-game and sends OVER (message) to both clients
+(SYNC logs result of game SYNC)
+```
+
+## Hosting
+
+Plan: run the server on NeCTAR, and distribute the client program to students
+
+Can I get a host name from eng it? Suppose it's not essential, since I can hard
+code the IP in this case. But a host name would allow me the safety of being
+able to change the IP (e.g. if I had to terminate my nectar instance for some
+reason) without getting all students to update their programs or change their
+workflow.
+
+Do I have any host names lying around? Can I register a cheap one for this?

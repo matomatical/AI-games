@@ -4,7 +4,7 @@ From 2017 to 2021, I worked as a head TA for
 [*COMP30024 Artificial Intellience*](https://handbook.unimelb.edu.au/subjects/comp30024/print),
 an introductory AI class at the University of Melbourne.
 
-Each year, I develop an original board game for the students to play. Well,
+Each year, I developed an original board game for the students to play. Well,
 it's for their computers to play, but, if I do say so myself, some of the
 games end up being fun for humans too!
 
@@ -201,6 +201,9 @@ design this game, but it served as an inspiration for
 * The main project, to build a (Java) program to play the game
   \[[specification pdf](2017-slider/project/specification.pdf)\]
   \[[driver program](2017-slider/project/Referee.java)\]
+* The proof-of-concept online *playground* for remote matchmaking and play
+  \[[client and server code](2017-slider/server/playground/)\]
+  \[[demo video](2017-slider/server/playground.mp4)\]
 * TODO: Dig up tournament recording
 
 ## Hexifence
@@ -227,7 +230,7 @@ Contents:
 
 ## TODO:
 
-* I found some files on an old drive! Add them:
+* For some more files, check AI 2017 and 2018 files in archives.
   * 2017: server!, a year earlier than I remember; plus some demo videos.
   * 2018: server (and 2017 server), project sources, some animations of WUB!
   * 2017 lectures: tournament recording.
